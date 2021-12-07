@@ -1,0 +1,196 @@
+@font-face {
+    font-family: '7host';
+    font-style: normal;
+    font-weight: 400;
+    src: url(font/Yekan/.eot);
+    src: url(font/Yekan.eot?#iefix) format('embedded-opentype'),
+         url(font/Yekan/Yekan.woff) format('woff'),
+         url(font/Yekan/Yekan.ttf) format('truetype');
+         }
+
+
+
+.v1{
+border-bottom: 15px solid rgb(7, 124, 15);
+  height: 0%;width: 100%;
+  position: absolute;top: 0;
+ 
+  
+ }
+ .f{
+    display:inline-block ;
+    width: 8%;height: 5%;
+    position: absolute;left: 5%;right: 100%;top:40px;
+    background-color:rgb(7,124,15);border: seashell;
+    border-radius: 20px;
+    }
+
+ .f a{
+        text-decoration: none;
+        color: seashell;
+        font: size 85%;
+    }
+
+ li a{
+    text-decoration: none;
+    display:block;
+   block-size: 5%;
+    padding: 25px;
+    padding-top: 30px;
+    font:bold;
+    font-size: 90%;
+    }
+    
+  ul{
+      display:inline-flex; 
+      list-style-type: none;
+     position: absolute;right: 19%;top:0%;
+     padding-top: 0%;
+    
+      }
+ .logo{
+        position: fixed; top: 5%;right: 11%;
+        margin-left: 10%;
+      }
+ .v2{
+        border-top: 1.5px solid rgb(187, 197, 187);
+          height: 0%;width: 100%;
+          position: absolute;top: 85px;}
+.jonbesh{
+              position: absolute;top: 15%; left: 42%;
+              font-size: 120%;
+
+          }
+ .esraf{box-sizing: border-box;
+    border-radius: 50%;
+    position: absolute;top: 30%;left: 20%;
+    background-color:#ffe000;
+    background-image: url(image/leaf.png );
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;height: 100px;
+    background-size: 50% 50%;}
+  
+.multi{box-sizing: border-box;
+        border-radius: 50%;
+        position: absolute;top: 30%;left: 47%;
+        background-color:#ffe000        ;
+        background-image: url(image/multipleUsers.png );
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100px;height: 100px;
+        background-size: 50% 50%;}
+        
+.coins{box-sizing: border-box;
+        border-radius: 50%;
+        position: absolute;top: 30%;right: 20%;
+        background-color:#ffe000;
+        background-image: url(image/coins.png );
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100px;height: 100px;
+        background-size: 50% 50%;}
+.esraf p{
+         position: absolute;top: 95%;left: 19%;
+        }
+.jadid{
+          
+         position: absolute;top: 47%;left:47%;
+         
+        }
+
+.coins p{
+         position: absolute;top: 95%;left: 19%;}
+
+body{
+    margin: 0%;
+    height: 100%;
+    font-family:yekan,Tahoma;
+
+}
+.hamrahan{
+    position: absolute;top: 65%;
+   width:100% ;height: 35%;
+   margin-bottom: 0%;
+    background-color:rgb(226, 224, 207);}
+.hamrahan p{
+    position: absolute;top: 5%;left: 45.4%;
+    font-size: 120%;
+    color:rgb(7, 124, 15);
+}
+.bread{
+    position: absolute;top: 78%;right: 72.5%;
+    background-color:white;
+    border-radius: 5%;
+    background-image: url(image/bread.png);
+    background-repeat: no-repeat;
+    box-shadow: 2px 2px rgb(179, 163, 163);
+    background-position: center;
+    width: 155px;height: 110px;
+    background-size: 20% 30%;}
+    .bread p{
+        position: absolute;top: 54%;left: 22%;
+       color:rgb(7, 124, 15) ;
+    }
+    .restaurant{
+        position: absolute;top: 78%;left:35.5%;
+        background-color:white;
+        border-radius: 5%;
+        background-image: url(image/restaurant.png);
+        background-repeat: no-repeat;
+        box-shadow: 2px 2px  rgb(179, 163, 163);
+        background-position: center;
+        width: 155px;height: 110px;
+        background-size: 20% 30%;}
+     .restaurant p{
+            position: absolute;top: 54%;left: 22%;
+           color:rgb(7, 124, 15) ;
+        }
+    .hotel{
+            position: absolute;top: 78%;left:55%;
+            background-color:white;
+            border-radius: 5%;
+            background-image: url(image/hotel.png);
+            background-repeat: no-repeat;
+            box-shadow: 2px 2px  rgb(179, 163, 163);
+            background-position: center;
+            width: 155px;height: 110px;
+            background-size: 20% 30%;}
+    .hotel p{
+                position: absolute;top: 54%;left: 42%;
+               color:rgb(7, 124, 15) ;
+            }   
+     .kharobar{
+                position: absolute;top: 78%;left:74%;
+                background-color:white;
+                border-radius: 5%;
+                background-image: url(image/kharobar.png);
+                background-repeat: no-repeat;
+                box-shadow: 2px 2px  rgb(179, 163, 163);
+                background-position: center;
+                width: 155px;height: 110px;
+                background-size: 20% 30%;}
+     .kharobar p{
+                    position: absolute;top: 54%;left: 29%;
+                   color:rgb(7, 124, 15) ;
+                }   
+  
+ a.h:hover , a.h:active{
+    background:rgb(7, 124, 15) ;
+    color: white;
+    display:inline-block ;
+     block-size: 4px 10px;
+    border-radius: 25px;
+}
+a.bread:hover{
+border-bottom: 8px solid rgb(7, 124, 15);
+}
+a.restaurant:hover{
+border-bottom: 8px solid rgb(7, 124, 15);
+    }
+a.hotel:hover{
+border-bottom: 8px solid rgb(7, 124, 15);
+        }   
+a.kharobar:hover{
+border-bottom: 8px solid rgb(7, 124, 15);
+            }      
